@@ -30,3 +30,6 @@ b_TON9dumSVKZ.zip
 
 # 与 package-lock 二选一，仓库以 npm 为准
 pnpm-lock.yaml
+
+# 本地比赛提交材料（不上传 GitHub）
+skills_competition_submission/

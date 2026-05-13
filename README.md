@@ -9,7 +9,7 @@ pip install -r requirements.txt
 python word_to_questionbank_excel.py --input 试题.docx --template 模板.xlsx --output 导出.xlsx --module 默认标签 --answer-separator 、
 ```
 
-Windows 也可在项目根目录使用 `skills_competition_submission/run_python_cli.bat`（参数与上相同）。
+Windows 可在项目根目录打开终端，直接执行上节 `python` 命令（需已安装 Python 并将 `python` 加入 PATH）。
 
 打包为单文件 EXE：`powershell -ExecutionPolicy Bypass -File .\build_tool.ps1`，再使用根目录 `run_word_to_excel.bat`（依赖 `dist\word_to_excel.exe`）。
 
@@ -29,10 +29,6 @@ npm run dev
 ## Cursor Skill
 
 说明见 [`.cursor/skills/word-excel-template-fill/SKILL.md`](.cursor/skills/word-excel-template-fill/SKILL.md)。
-
-## 比赛提交包
-
-[`skills_competition_submission/`](skills_competition_submission/) 内含 `skill.md`、脚本副本、商业价值说明与演示链接说明。演示视频请使用 **`演示视频链接.txt` 中的 B 站链接**；**不在包内附带 MP4** 以控制压缩包体积（`*.mp4` 见该目录 `.gitignore`）。
 
 ## 仓库
 
