@@ -18,3 +18,15 @@ dist/
 
 result*.xlsx
 _audit_export.xlsx
+node_modules
+
+# Next.js / 本地缓存
+.next/
+.gradio/
+*.tsbuildinfo
+
+# 杂项大文件
+b_TON9dumSVKZ.zip
+
+# 与 package-lock 二选一，仓库以 npm 为准
+pnpm-lock.yaml
