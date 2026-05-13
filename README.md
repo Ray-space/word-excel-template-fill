@@ -32,7 +32,7 @@ npm run dev
 
 ## 比赛提交包
 
-[`skills_competition_submission/`](skills_competition_submission/) 内含 `skill.md`、脚本副本、商业价值说明与演示链接说明；其中 **`*.mp4` 不纳入 Git**（见该目录下 `.gitignore`），打包参赛时请本地加入视频后再压缩。
+[`skills_competition_submission/`](skills_competition_submission/) 内含 `skill.md`、脚本副本、商业价值说明与演示链接说明。演示视频请使用 **`演示视频链接.txt` 中的 B 站链接**；**不在包内附带 MP4** 以控制压缩包体积（`*.mp4` 见该目录 `.gitignore`）。
 
 ## 仓库
 
